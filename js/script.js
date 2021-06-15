@@ -30,3 +30,16 @@ for(var i = 0; i < classroom.scholars.length; i++){
 }
 
 // ------------------
+
+while (classroom.scholars.length < 3) {
+
+    userNAme = prompt('inserisci nome');
+    userLastan = prompt('inserisci cognome');
+    userNumber = prompt('inserisci numero di telefono');
+
+    classroom.scholars.push({
+        name: userNAme,
+        surname: userNAme,
+        telephon: userNumber
+    })
+}
