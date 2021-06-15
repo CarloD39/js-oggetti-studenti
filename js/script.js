@@ -31,15 +31,17 @@ for(var i = 0; i < classroom.scholars.length; i++){
 
 // ------------------
 
-while (classroom.scholars.length < 3) {
+var oneObject = document.getElementById('object-student');
 
-    userNAme = prompt('inserisci nome');
-    userLastan = prompt('inserisci cognome');
-    userNumber = prompt('inserisci numero di telefono');
+var newClass = {
 
-    classroom.scholars.push({
-        name: userNAme,
-        surname: userNAme,
-        telephon: userNumber
-    })
 }
+
+newClass.userNAme   = prompt('inserisci nome');
+newClass.userLastan = prompt('inserisci cognome');
+newClass.userNumber = prompt('inserisci l\'età');
+
+oneObject.innerHTML = (newClass.userNAme);
+
+
+
